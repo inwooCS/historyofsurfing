@@ -5,32 +5,52 @@ body {
   text-align: center;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Monospace', sans-serif;
+  color: yellow;
+}
+
+p {
+  margin: 5px 25px;
+}
+
+.profile {
+  padding-left: 140px;
+}
+
+div.image.profile {
+  width: 50px;
+  height: 200px;
+  float: left;
+  margin: 20px 25px;
+}
+
+div.image.profile img {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  position: relative;
   text-align: center;
 }
 
-img {
-  float: none;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(25%, 25%);
 }
 
-#container {
-  height: 100px;
-  width: 200px;
-  position: relative;
+.image {
+  position:relative;
+  text-align: center;
+  float: left;
 }
-#image {
-  position: absolute;
+
+.text {
   left: 0;
-  top: 0;
-}
-#text {
-  z-index: 100;
   position: absolute;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  left: 150px;
-  top: 350px;
+  top: 175px;
+  width: 100%;
 }
-
